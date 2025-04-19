@@ -10,6 +10,11 @@ document.addEventListener("DOMContentLoaded", function () {
             
             // E-post
             document.getElementById("email").textContent = `Email: ${data["email"]}`;
+          
+            // Kas nii oleks õige, et kui tahta panna email läbi jsoni ikooni alla??
+           // const emailLink = document.getElementById("email");
+           // emailLink.href = `emailto:${data["email"]}`; 
+           
         })
-        //.catch(error => console.error("JSON-i laadimine ebaõnnestus:", error));
+        
 });
